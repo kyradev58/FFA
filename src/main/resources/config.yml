@@ -1,15 +1,15 @@
-prefix: "&b&lFFA &7|&r "
+prefix: "&7"
 
 # Streak settings
 StreakThreshold: 5
 StreakLoseThreshold: 5
 StreakMessage:
   - " "
-  - "&a%player% &7reached a kill streak of &a%streak%&7!"
+  - "&6%player% &7reached a kill streak of &6%streak%!"
   - " "
 StreakLose:
   - " "
-  - "&c%player% &7just lost their kill streak of &c%streak%&7!"
+  - "&c%player% &7just lost their kill streak of &c%streak%."
   - " "
 
 # Gameplay settings
@@ -20,12 +20,11 @@ disableDeathDrops: true
 smoothSpawnTeleport: true
 show-ping-on-right-click:
   enabled: true
-  message: "&b%clicked_player% &7has &b%ping%&7ms"
+  message: "&6%clicked_player%'s ping: &6%ping%ms"
 launchpad:
   force: 1.8
 deathMessages:
   - "&c%victim% &7was defeated by &a%attacker% &7(&c%attacker_health%❤&7)"
-  - "&7You can add more here!"
 
 # Quick Respawn settings
 quick-respawn:
@@ -41,8 +40,8 @@ quick-respawn:
 
 # Healthbar settings
 healthbar:
-  enabled: false
-  display-name-format: "&#FF7A7A❤"
+  enabled: true
+  display-name-format: "&f❤"
   disabled-worlds:
     - spawn
 
@@ -61,9 +60,6 @@ combat-tagger:
 
 # Blacklisted nicknames
 blacklisted-nicknames:
-  - Fuck
-  - Dick
-  - DarkxxIsBad
   - XyrisPluginsBad
 
 # Messages
