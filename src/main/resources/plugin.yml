@@ -6,7 +6,7 @@ softdepend:
   - PlaceholderAPI
   - ProtocolLib
   - FastAsyncWorldEdit
-authors: [Darkxx, XyrisPlugins]
+authors: [kyra]
 description: A Next Gen 1.19 FFA Core.
 
 commands:
@@ -22,6 +22,7 @@ commands:
     aliases:
       - kms
       - iwanttodie
+      - iwanttodiebecauseimdepressedandanobody
       - killme
   broadcast:
     permission: ffa.commands.broadcast
